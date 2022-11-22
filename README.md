@@ -1,1 +1,6 @@
 # Mapping_Earthquakes
+
+
+
+## Purpose
+
