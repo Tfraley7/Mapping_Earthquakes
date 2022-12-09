@@ -49,4 +49,5 @@ In any analysis it is important to keep the user in mind. The customer would nee
 
 
 References:
+<br/>
 Brush, K. (N.D.). What is Data Visualization. https://www.techtarget.com/searchbusinessanalytics/definition/data-visualization
