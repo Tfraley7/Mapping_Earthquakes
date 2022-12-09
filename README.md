@@ -21,7 +21,7 @@ These three maps could display three variables: Earthquakes, Tectonic Plates, an
 ## Procedures for Analysis
 To start the analysis off on the right foot it was important to build the streets, satellite, and dark maps. Each was done by creating their own 
 separate let function in JavaScript. This is completed by using let which is the keyword that declares a variable (i.e. streets). At the beginnning
-of the let assignment I then pull in my api through the L.titleLayer(,{ function. The api pulls geographical data based on streets from the mapbox.com 
+of the let assignment I then pull in my api through the L.titleLayer(,{}) function. The api pulls geographical data based on streets from the mapbox.com 
 website. This is important because I wanted to create a map object and specify the div element amongst the map that will be displayed. Each tile layer
 will later be able to be toggled on and off within my script. Allowing the user to select different versions of the map that I built. Later, in the analysis a base map was applied as the base layer in the code. This base maps variable would hold all three types of maps and apply them to the html file.
 
