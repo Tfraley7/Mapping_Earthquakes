@@ -1,5 +1,6 @@
-# Mapping_Earthquakes
-Analyzing Earthquakes Around The World
+<p align="center">Mapping Earthquakes<br/>
+<br/>
+<p align="center">Analyzing Earthquakes Around The World<br/>
 <br/>
 <p align="center">Tyrone Fraley<br/>
 UC Berkley Extension<br/>
