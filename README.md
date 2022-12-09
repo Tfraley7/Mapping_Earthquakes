@@ -49,12 +49,21 @@ In any analysis it is important to keep the user in mind. The customer would nee
   
 Finally, near the end of the process it was vital that I add tectonic plate data to the map. This way the users could look at tectonic plates and their causual relationship with earthquakes from a visual perspective. D3.json was used again here to gather data; however this data was pulled from github user 
 Hugo Ahlenius. Thanks to their effforts I was able to plot tectonic plates with the color purple. I chose purple because it was dramatically different in color from my earthquake color scale. Which could be impactful for users. 
+<br/>
+  
+## Results
+When analyzing the data I decided to understand which location had the worst earthquake in the last seven days. This was based on the data provided to me by the USGS (2022). The Samoa Islands region had an earthquake with a magnitude of 6.7 (at the time of my analysis) making it the largest in the world.
 
-
+ <p align="center">
+  <img width="460" height="200" src="Largest_Earthquake.png">
+</p>
+<br/>
+  
+<br/>  
 References:
 <br/>
 Brush, K. (N.D.). What is Data Visualization. https://www.techtarget.com/searchbusinessanalytics/definition/data-visualization
  <br/>
 Ahlenius, H. (2014). Tectonicplates. https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
  <br/>
-USGS. (2022). GeoJSON Summary Feed https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
+USGS. (2022) GeoJSON Summary Feed. Past 7 Days. https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
