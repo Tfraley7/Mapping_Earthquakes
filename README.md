@@ -25,7 +25,7 @@ of the let assignment I then pull in my api through the L.titleLayer(,{ function
 website. This is important because I wanted to create a map object and specify the div element amongst the map that will be displayed. Each tile layer
 will later be able to be toggled on and off within my script. Allowing the user to select different versions of the map that I built. Later, in the analysis a base map was applied as the base layer in the code. This base maps variable would hold all three types of maps and apply them to the html file.
 
-To retreive the earthquake data I used GeoJSON to retrieve a website through the d3.json() function. I then used function styleInfo(feature){} to return the calculate the color and radius of the earthquake. Magnitude of the earthquake was taken into consideration when building the legend for the 
+To retreive the earthquake data I used GeoJSON to retrieve a website through the d3.json() function. I then used function styleInfo(feature){} as an argument to relay a style object that could define how the feature may be styled. I then created another function to create an array of colors based on the magnitude of the earthquakes from 1-5+ (5+ being the highest). Albeit, at this point of the process the code looked great; however, it was far from complete. To pin point locations of earthquakes I had to add another GeoJSON layer that could capture the location of the earthquakes. Thankfully, I can do just that through GeoJSON by adding feature and latlng to a function: pointToLayer: function(feature, latlng){}.
 
 ### Streets View
 <p align="center">
@@ -44,3 +44,9 @@ To retreive the earthquake data I used GeoJSON to retrieve a website through the
   <img width="460" height="200" src="Dark.png">
 </p>
 <br/>
+
+In any analysis it is important to keep the user in mind. The customer would need to understand the color schemes and how it relates to the map. This is where the legend comes into play to better guide the customer through the analysis. The legend is comprised of a least to greatest color scale of light green to red could allow the user to understand the overall magnitude of the earthquakes. Conceptualy, this is an important action; according to Brush (N.D.), "an improved ability to maintain the audience's interest with information they can understand."
+
+
+References:
+Brush, K. (N.D.). What is Data Visualization. https://www.techtarget.com/searchbusinessanalytics/definition/data-visualization
