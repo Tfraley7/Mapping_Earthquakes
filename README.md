@@ -54,5 +54,7 @@ Hugo Ahlenius. Thanks to their effforts I was able to plot tectonic plates with 
 References:
 <br/>
 Brush, K. (N.D.). What is Data Visualization. https://www.techtarget.com/searchbusinessanalytics/definition/data-visualization
+ <br/>
 Ahlenius, H. (2014). Tectonicplates. https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+ <br/>
 USGS. (2022). GeoJSON Summary Feed https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
