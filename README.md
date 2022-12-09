@@ -13,7 +13,7 @@ Dec 9, 2022<br/>
 
 ## Overview of the Analysis
 The purpose of this analysis was to analyze earthquakes from around the world. To map the earthquakes I used Javascript to scrape data 
-from Mapbox using a Mapbox api and then plot the data using Leaflet. The data from the Javascript file was then pulled into my html file
+from Mapbox using a Mapbox api, the USGS data on earthquakes, and then plot the data using Leaflet. The data from the Javascript file was then pulled into my html file
 to see the data displayed on a webpage. The data was then configured to display three different types of maps: Satellite, Dark, and Streets. 
 These three maps could display three variables: Earthquakes, Tectonic Plates, and Major Earthquakes.  
 <br/>
