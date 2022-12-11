@@ -136,14 +136,14 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
 
 // 5. Change the color function to use three shades of orange with a black border for the major earthquakes based on the magnitude of the earthquake. 
 function getColor(magnitude) {
-  if (magnitude > 6) {
-    return "teal";
+  if (magnitude >=6) {
+    return "#982E40";
   }
-  if (magnitude > 5) {
-    return "purple";
+  if (magnitude >=5) {
+    return "#ea822c";
   }
   if (magnitude <5)
-  return "blue";
+  return "#ea2c2c";
   }
   
 
@@ -188,9 +188,10 @@ let legend = L.control({
 // Then add all the details for the legend
 legend.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
-
+// green to red color scheme
   const magnitudes = [0, 1, 2, 3, 4, 5];
   const colors = [
+    
     "#98ee00",
     "#d4ee00",
     "#eecc00",
